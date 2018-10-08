@@ -25,6 +25,7 @@
     "test": "yarn run eslint && yarn run mocha",
     "eslint": "eslint src/. test/. --config .eslintrc.json",
     "dev": "nodemon src/",
+    "dev-debug": "nodemon --inspect-brk src/",
     "start": "node src/",
     "mocha": "mocha test/ --recursive --exit"
   },
